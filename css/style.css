@@ -1,0 +1,340 @@
+/* Global */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+/* End Global */
+/* Header */
+.home{
+    background-image: url(../Images/thecoffman.jpg);
+    background-size: 100% 100%;
+    overflow: auto;
+    height: 100vh;
+    margin-bottom: 90px;
+}
+.nav .logo,
+.nav .list{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav .logo{
+    width: 15%;
+}
+.nav .logo img{
+    width: 100%;
+}
+.nav .list{
+    width: fit-content;
+    margin-left: 500px;
+}
+.nav .list ul li{
+    display: inline-block;
+    padding: 25px 20px;
+}
+.nav .list ul li a{
+    color: white;
+    font-size: 20px;
+}
+.nav .list ul li .hhome{
+    padding-top: 22px;
+    border-top: 3px solid #8e7754;
+}
+.message{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+.message p{
+    font-size: 23px;
+}
+.message h1{
+    font-size: 76px;
+    margin: 20px 0px;
+    font-family: "Alegreya", serif;
+    font-weight: normal;
+}
+.message .button{
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 25px 5px;
+}
+.message .first{
+    background-color: #8e7754;
+    border: 2px solid transparent;
+}
+.message .second{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.scroll{
+    width: 35px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 40%;
+    margin: auto;
+    margin-top: 40px;
+}
+/* End Header */
+/* About */
+.about{
+    margin-bottom: 90px;
+}
+.about .about-image,
+.about .about-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.about .about-image{
+    width: 45%;
+    margin-left: 40px;
+}
+.about .about-image img{
+    width: 100%;
+}
+.about .about-text{
+    width: 45%;
+    margin-left: 80px;
+}
+.about .about-text h2{
+    font-family: "Alegreya", serif;
+    font-weight: normal;
+    font-size: 32px;
+    padding: 25px 0px;
+}
+.about .about-text p{
+    padding: 20px 0px;
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+.about .about-text ul li{
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+    padding: 10px 10px 10px 0px;
+}
+.about .about-text ul li img{
+    width: 7%;
+    vertical-align: middle;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* End About */
+/* Our Location */
+.location{
+    background-color: #f8f8f8;
+    margin-bottom: 90px;
+    padding: 90px 0px;
+}
+.location .location-text,
+.location .location-image{
+    display: inline-block;
+    vertical-align: middle;
+}
+.location .location-text{
+    width: 46%;
+    margin-left: 35px;
+}
+.location .location-text h2{
+    font-family: "Alegreya", serif;
+    font-weight: normal;
+    font-size: 32px;
+    padding: 25px 0px;
+}
+.location .location-text p{
+    padding: 10px 0px;
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+.location .location-image{
+    width: 44%;
+    margin-left: 80px;
+}
+.location .location-image img{
+    width: 100%;
+}
+/* End Our Location */
+/* Gallery */
+.baking{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.baking .text h3{
+    font-family: "Alegreya", serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+.baking .text p{
+    font-size: 17px;
+    color: #686868;
+    max-width: 720px;
+    line-height: 1.86em;
+    margin: 18px auto 40px;
+}
+.baking .items .item{
+    width: 33%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.baking .items .item .in{
+    padding: 20px;
+}
+.baking .items .item .in img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.baking .items .item .in .item-text h5{
+    font-family: "Alegreya", serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.baking .items .item .in .item-text p{
+    font-size: 17px;
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 30px
+}
+/* End Gallery */
+/* Blog */
+.information{
+    background-color: #f8f8f8;
+    padding: 85px 70px;
+}
+.information .information-text{
+    width: 47%;
+    float: left;
+    margin-top: 20px;
+}
+.information .information-text h2{
+    font-family: "Alegreya", serif;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.information .information-text p{
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 30px;
+}
+.information .information-text ul li{
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+    padding: 10px 10px 10px 0px;
+}
+.information .information-text ul li img{
+    width: 7%;
+    vertical-align: middle;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #8e7754;
+}
+.information .information-map{
+    width: 40%;
+    float: right;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+/* End Blog */
+/* The Last */
+.thelast{
+    background-color: #403d38;
+    padding-top: 60px;
+    padding-bottom: 52px;
+}
+.thelast .item{
+    width: 24%;
+    float: left;
+    color: #888;
+    margin-left: 12px;
+}
+.thelast .item h4{
+    color: white;
+    margin-bottom: 25px;
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.thelast .item p{
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+.thelast .item ul li div{
+    color: #888;
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+    line-height: 1.86em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.thelast .item ul li a{
+    color: #888;
+}
+.thelast .item ul li img{
+    width: 9%;
+    vertical-align: middle;
+}
+.thelast .item ul li span{
+    padding-bottom: 12px;
+}
+/* End The Last */
+/* The Footer */
+.footer{
+    background-color: #353330;
+    color: #888;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.footer .footer-text{
+    width: 30%;
+    margin: auto;
+}
+.footer .footer-text p{
+    margin-top: 5px;
+}
+.footer .footer-text img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer .footer-text .images{
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 8px;
+}
+.footer .footer-text .images .item-img{
+    float: left;
+    width: 18%;
+    margin-left: 8px;
+}
+.footer .footer-text .images .item-img img{
+    width: 100%;
+    background-color: #484540;
+    border-radius: 50%;
+}
+/* End The Footer */
